@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/video_juego_navigation"
+    app:startDestination="@+id/videoJuegoFragment">
+
+    <fragment
+        android:id="@+id/videoJuegoFragment"
+        android:name="com.example.videojuegosapp.ui.videojuegos.VideoJuegosFragment"
+        android:label="VideoJuegos"
+        tools:layout="@layout/fragmento_video_juegos">
+        <action
+            android:id="@+id/action_navigation_video_juegos_a_detalle"
+            app:destination="@id/detalleVideoJuegoFragmento" />
+    </fragment>
+    <fragment
+        android:id="@+id/detalleVideoJuegoFragmento"
+        android:name="com.example.videojuegosapp.ui.detalleVideoJuego.DetalleVideoJuegoFragment"
+        android:label="@string/detalle_videojuego"
+        tools:layout="@layout/fragment_detalle_video_juego">
+        <action
+            android:id="@+id/action_detalleFragmento_a_videoJuegos"
+            app:destination="@id/videoJuegoFragment" />
+        <argument
+            android:name="idVideoJuego"
+            app:argType="integer" />
+    </fragment>
+
+
+</navigation>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">videojuegosApp</string>
+    <string name="acerca_de">Acerca de</string>
+    <string name="requerimientos_del_sistema">Requerimientos del sistema</string>
+    <string name="os">OS:</string>
+    <string name="cpu">CPU:</string>
+    <string name="ram">RAM:</string>
+    <string name="memoria">Memoria:</string>
+    <string name="tarjeta_grafica">Tarjeta Gráfica:</string>
+    <string name="capturas_de_pantalla">Capturas de pantalla</string>
+    <string name="favoritos">Favoritos</string>
+    <string name="detalle_videojuego">Detalle VideoJuego</string>
+    <string name="todos">Todos</string>
+</resources>

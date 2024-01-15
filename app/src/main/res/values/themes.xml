@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.VideojuegosApp" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="ToolbarTheme" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+        <item name="colorControlNormal">@color/white</item>
+    </style>
+
+    <style name="verMasDrawable">
+        <item name="srcCompat">@drawable/ver_mas_drawable</item>
+    </style>
+
+    <style name="favoritosChip" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="chipIcon">@drawable/filtro_lista</item>
+        <item name="chipBackgroundColor">@color/light_gray_alternative</item>
+        <item name="android:textColor">@color/medium_dark</item>
+        <item name="checkedIconTint">@color/medium_dark</item>
+        <item name="chipMinHeight">28dp</item>
+        <item name="chipStrokeColor">@color/light_gray</item>
+        <item name="chipStrokeWidth">1dp</item>
+        <item name="chipCornerRadius">14dp</item>
+        <item name="chipMinTouchTargetSize">48dp</item>
+        <item name="chipIconSize">24dp</item>
+        <item name="android:textAppearance">?attr/textAppearanceBody2</item>
+    </style>
+
+    <style name="CustomChip" parent="Widget.MaterialComponents.Chip.Filter">
+        <item name="checkedIconTint">@color/white</item>
+        <item name="android:textColor">@drawable/chip_unselect_state</item>
+        <item name="chipBackgroundColor">@drawable/chip_select_state</item>
+        <item name="chipStrokeColor">@color/light_gray</item>
+        <item name="chipStrokeWidth">1dp</item>
+        <item name="chipMinHeight">28dp</item>
+        <item name="chipCornerRadius">6dp</item>
+        <item name="chipMinTouchTargetSize">48dp</item>
+        <item name="chipIconSize">24dp</item>
+        <item name="android:textAppearance">?attr/textAppearanceBody2</item>
+    </style>
+</resources>
